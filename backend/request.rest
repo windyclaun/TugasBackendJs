@@ -1,0 +1,25 @@
+###
+GET http://localhost:3001/notes
+Content-Type: application/json
+
+###
+POST http://localhost:3001/notes
+Content-Type: application/json
+
+{
+    "title": "Catatan c",
+    "content": "ccccccccccccccccccccccccccccccccccc"
+}
+
+###
+PUT http://localhost:3001/notes/1
+Content-Type: application/json
+
+{
+    "title": "CATATAN A",
+    "content": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+}
+
+### 
+DELETE http://localhost:3001/api/notes/1
+Content-Type: application/json
